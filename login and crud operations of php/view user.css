@@ -1,0 +1,64 @@
+#user .avatar {
+    width:60px;
+	}
+#user .avatar > img{
+	width:50px;
+	height:50px;
+	border-radius:10%;
+	}
+
+#user .panel-thumb{
+margin:5px auto;
+text-align:center;	
+	}
+#user .panel-thumb .avatar-card {
+text-align:center;
+height:200px;
+margin:auto;
+overflow:hidden;
+}	
+#user .panel-thumb .avatar-card > img{
+	max-width:200px;
+	max-height:200px;
+	}
+
+
+#user .panel-table{
+  animation-duration:3s;
+}
+
+#user .panel-table .panel-body .table{
+  margin:0px;
+}
+#user .panel-table .panel-body {
+  padding:0px;
+}
+#user .panel-table .panel-body .table-bordered > thead > tr > th{
+  text-align:center;
+}
+#user .panel-table .panel-footer {
+  height:60px;
+  padding:0px;
+}
+.search{
+    margin-left: 800px;
+    margin-right: 30px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+    
